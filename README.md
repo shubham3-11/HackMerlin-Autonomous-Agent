@@ -43,7 +43,8 @@ Follow these steps to run the agent:
     cd src
     python -m runner.cli --engine=playwright --headless=false --max-attempts-per-level=8
 
-    This will open a browser to the HackMerlin game and begin the autonomous play. The agent will type messages and read Merlin's responses automatically.
+    This will open a browser to the HackMerlin game and begin the autonomous play. 
+    The agent will type messages and read Merlin's responses automatically.
 
 3.Watch the agent progress: By default, the browser is visible (--headless=false). You can observe the agent’s attempts at each level. If Merlin’s responses slow down or you see rate-limit messages, the agent will pause accordingly.
 
