@@ -54,7 +54,8 @@ Follow these steps to run the agent:
 
 5.Troubleshooting: If something goes wrong (e.g., element not found or a crash), you can adjust the strategy or selectors:
     -Verify the HackMerlin site is reachable and responsive.
-    -If the agent can't find the input box or messages, the HTML structure might have changed. -Open devtools on hackmerlin.io to find the correct selectors and update vision/locators.py accordingly.
+    -If the agent can't find the input box or messages, the HTML structure might have changed. 
+    -Open devtools on hackmerlin.io to find the correct selectors and update vision/locators.py accordingly.
     -Increase timeouts in vision/reader.py if the agent is too fast for the page.
     -After adjustments, simply rerun the agent (you can kill and restart the same command).
 
